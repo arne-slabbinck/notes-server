@@ -18,6 +18,12 @@
 
     "start": "npx nodemon",
 
+    "dev": "webpack --config=Scripts/config/webpack.dev.js --watch",
+
+    "build": "webpack --config=Scripts/config/webpack.prod.js",
+
+    "prepare": "husky install",
+
     "test": "echo \"Error: no test specified\" && exit 1"
 
   },
@@ -36,13 +42,19 @@
 
     "gh-pages": "^6.1.0",
 
+    "html-webpack-plugin": "^5.5.4",
+
     "nodemon": "^3.0.2",
 
     "prisma": "^5.7.0",
 
     "ts-node": "^10.9.1",
 
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+
+    "webpack-cli": "^5.1.4",
+
+    "webpack-merge": "^5.10.0"
 
   },
 
@@ -52,7 +64,9 @@
 
     "cors": "^2.8.5",
 
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+
+    "webpack": "^5.89.0"
 
   }
 
