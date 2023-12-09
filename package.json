@@ -8,7 +8,7 @@
 
   "main": "src/index.ts",
 
-  "homepage": "https://arne-slabbinck.github.io/snoopdoge-full",
+  "homepage": "https://arne-slabbinck.github.io/notes-server",
 
   "scripts": {
 
